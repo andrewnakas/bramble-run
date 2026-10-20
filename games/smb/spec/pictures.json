@@ -1,0 +1,476 @@
+{
+"player_big_walking_frame_1": {
+"w": 16,
+"h": 32
+},
+"player_big_walking_frame_2": {
+"w": 16,
+"h": 32
+},
+"player_big_walking_frame_3": {
+"w": 16,
+"h": 32
+},
+"player_big_skidding": {
+"w": 16,
+"h": 32
+},
+"player_big_jumping": {
+"w": 16,
+"h": 32
+},
+"player_big_swimming_frame_1": {
+"w": 16,
+"h": 32
+},
+"player_big_swimming_frame_2": {
+"w": 16,
+"h": 32
+},
+"player_big_swimming_frame_3": {
+"w": 16,
+"h": 32
+},
+"player_big_climbing_frame_1": {
+"w": 16,
+"h": 32
+},
+"player_big_climbing_frame_2": {
+"w": 16,
+"h": 32
+},
+"player_big_crouching": {
+"w": 16,
+"h": 24
+},
+"player_big_fireball_throwing": {
+"w": 16,
+"h": 32
+},
+"player_small_walking_frame_1": {
+"w": 16,
+"h": 16
+},
+"player_small_walking_frame_2": {
+"w": 16,
+"h": 16
+},
+"player_small_walking_frame_3": {
+"w": 16,
+"h": 16
+},
+"player_small_skidding": {
+"w": 16,
+"h": 16
+},
+"player_small_jumping": {
+"w": 16,
+"h": 16
+},
+"player_small_swimming_frame_1": {
+"w": 16,
+"h": 16
+},
+"player_small_swimming_frame_2": {
+"w": 16,
+"h": 16
+},
+"player_small_swimming_frame_3": {
+"w": 16,
+"h": 16
+},
+"player_small_climbing_frame_1": {
+"w": 16,
+"h": 16
+},
+"player_small_climbing_frame_2": {
+"w": 16,
+"h": 16
+},
+"player_small_killed": {
+"w": 16,
+"h": 16
+},
+"player_small_player_standing": {
+"w": 16,
+"h": 16
+},
+"player_intermediate_grow_frame": {
+"w": 16,
+"h": 24
+},
+"player_big_player_standing": {
+"w": 16,
+"h": 32
+},
+"enemy_buzzy_beetle_frame_1": {
+"w": 16,
+"h": 16
+},
+"enemy_buzzy_beetle_frame_2": {
+"w": 16,
+"h": 16
+},
+"enemy_koopa_troopa_frame_1": {
+"w": 16,
+"h": 24
+},
+"enemy_koopa_troopa_frame_2": {
+"w": 16,
+"h": 24
+},
+"enemy_koopa_paratroopa_frame_1": {
+"w": 16,
+"h": 24
+},
+"enemy_koopa_paratroopa_frame_2": {
+"w": 16,
+"h": 24
+},
+"enemy_spiny_frame_1": {
+"w": 16,
+"h": 16
+},
+"enemy_spiny_frame_2": {
+"w": 16,
+"h": 16
+},
+"enemy_spiny_s_egg_frame_1": {
+"w": 16,
+"h": 16
+},
+"enemy_spiny_s_egg_frame_2": {
+"w": 16,
+"h": 16
+},
+"enemy_bloober_frame_1": {
+"w": 16,
+"h": 16
+},
+"enemy_bloober_frame_2": {
+"w": 16,
+"h": 24
+},
+"enemy_cheep_cheep_frame_1": {
+"w": 16,
+"h": 16
+},
+"enemy_cheep_cheep_frame_2": {
+"w": 16,
+"h": 16
+},
+"enemy_goomba": {
+"w": 16,
+"h": 16
+},
+"enemy_koopa_shell_frame_1_upside_down": {
+"w": 16,
+"h": 16
+},
+"enemy_koopa_shell_frame_2": {
+"w": 16,
+"h": 16
+},
+"enemy_koopa_shell_frame_1_rightsideup": {
+"w": 16,
+"h": 16
+},
+"enemy_koopa_shell_frame_2_2": {
+"w": 16,
+"h": 16
+},
+"enemy_buzzy_beetle_shell_frame_1_rightsideup": {
+"w": 16,
+"h": 16
+},
+"enemy_buzzy_beetle_shell_frame_2": {
+"w": 16,
+"h": 16
+},
+"enemy_buzzy_beetle_shell_frame_1_upside_down": {
+"w": 16,
+"h": 16
+},
+"enemy_buzzy_beetle_shell_frame_2_2": {
+"w": 16,
+"h": 16
+},
+"enemy_defeated_goomba": {
+"w": 16,
+"h": 8
+},
+"enemy_lakitu_frame_1": {
+"w": 16,
+"h": 24
+},
+"enemy_lakitu_frame_2": {
+"w": 16,
+"h": 16
+},
+"enemy_princess": {
+"w": 16,
+"h": 24
+},
+"enemy_mushroom_retainer": {
+"w": 16,
+"h": 24
+},
+"enemy_hammer_bro_frame_1": {
+"w": 16,
+"h": 24
+},
+"enemy_hammer_bro_frame_2": {
+"w": 16,
+"h": 24
+},
+"enemy_hammer_bro_frame_3": {
+"w": 16,
+"h": 24
+},
+"enemy_hammer_bro_frame_4": {
+"w": 16,
+"h": 24
+},
+"enemy_piranha_plant_frame_1": {
+"w": 16,
+"h": 24
+},
+"enemy_piranha_plant_frame_2": {
+"w": 16,
+"h": 24
+},
+"enemy_podoboo": {
+"w": 16,
+"h": 16
+},
+"enemy_bowser_frame_1": {
+"w": 32,
+"h": 24
+},
+"enemy_bowser_frame_2": {
+"w": 32,
+"h": 24
+},
+"enemy_bullet_bill": {
+"w": 16,
+"h": 16
+},
+"enemy_jumpspring_frame_1": {
+"w": 16,
+"h": 24
+},
+"enemy_jumpspring_frame_2": {
+"w": 16,
+"h": 16
+},
+"enemy_jumpspring_frame_3": {
+"w": 16,
+"h": 8
+},
+"powerup_regular_mushroom": {
+"w": 16,
+"h": 16
+},
+"powerup_fire_flower": {
+"w": 16,
+"h": 16
+},
+"powerup_star": {
+"w": 16,
+"h": 16
+},
+"coin_spin": {
+"w": 32,
+"h": 8
+},
+"fireball": {
+"w": 16,
+"h": 8
+},
+"explosion": {
+"w": 24,
+"h": 8
+},
+"bubble": {
+"w": 8,
+"h": 8
+},
+"hammer": {
+"w": 16,
+"h": 16
+},
+"brick_chunk": {
+"w": 8,
+"h": 16
+},
+"block_obj": {
+"w": 16,
+"h": 16
+},
+"brick_obj": {
+"w": 16,
+"h": 8
+},
+"platform": {
+"w": 24,
+"h": 8
+},
+"small_platform": {
+"w": 8,
+"h": 8
+},
+"flag": {
+"w": 16,
+"h": 8
+},
+"vine": {
+"w": 8,
+"h": 16
+},
+"swim_kick": {
+"w": 16,
+"h": 8
+},
+"misc_ff": {
+"w": 8,
+"h": 8
+},
+"bowser_flame": {
+"w": 24,
+"h": 8
+},
+"misc_54": {
+"w": 16,
+"h": 16
+},
+"fills": {
+"w": 32,
+"h": 8,
+"uniform": [
+0,
+1,
+2,
+3
+]
+},
+"cloud_bush": {
+"w": 32,
+"h": 24
+},
+"hill": {
+"w": 32,
+"h": 16
+},
+"pipe_up": {
+"w": 32,
+"h": 24
+},
+"pipe_side": {
+"w": 32,
+"h": 32
+},
+"tree": {
+"w": 16,
+"h": 32
+},
+"tree_ledge": {
+"w": 32,
+"h": 24
+},
+"mushroom_ledge": {
+"w": 48,
+"h": 24
+},
+"seaplant": {
+"w": 16,
+"h": 16
+},
+"flagpole": {
+"w": 16,
+"h": 16
+},
+"guardrail_chain": {
+"w": 16,
+"h": 8
+},
+"pulley": {
+"w": 32,
+"h": 24
+},
+"castle_parts": {
+"w": 32,
+"h": 16
+},
+"brick": {
+"w": 16,
+"h": 16
+},
+"fence": {
+"w": 16,
+"h": 16
+},
+"ground": {
+"w": 16,
+"h": 16
+},
+"stair_block": {
+"w": 16,
+"h": 16
+},
+"castle_block": {
+"w": 16,
+"h": 16
+},
+"bridge": {
+"w": 16,
+"h": 8
+},
+"cannon": {
+"w": 16,
+"h": 40
+},
+"water_rock": {
+"w": 16,
+"h": 16
+},
+"water_top": {
+"w": 16,
+"h": 8
+},
+"cloud_block": {
+"w": 16,
+"h": 16
+},
+"bowser_bridge": {
+"w": 16,
+"h": 16
+},
+"qblock": {
+"w": 16,
+"h": 16
+},
+"coin_bg": {
+"w": 16,
+"h": 16
+},
+"coin_water": {
+"w": 16,
+"h": 16
+},
+"used_block": {
+"w": 16,
+"h": 16
+},
+"axe": {
+"w": 16,
+"h": 16
+},
+"hud_coin": {
+"w": 8,
+"h": 8
+},
+"cursor_mushroom": {
+"w": 8,
+"h": 8
+}
+}

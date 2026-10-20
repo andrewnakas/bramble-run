@@ -1,0 +1,857 @@
+{
+ "WaterArea1": {
+  "kind": "Water",
+  "timer": 1,
+  "entrance": 0,
+  "cloud": false,
+  "pages": 5,
+  "portals": [
+   {
+    "page": 1,
+    "entries": [
+     {
+      "dest": "GroundArea18",
+      "ptr": 49,
+      "world": 4,
+      "page": 7
+     },
+     {
+      "dest": "GroundArea4",
+      "ptr": 35,
+      "world": 5,
+      "page": 7
+     }
+    ],
+    "use": "side_pipe"
+   }
+  ]
+ },
+ "WaterArea2": {
+  "kind": "Water",
+  "timer": 1,
+  "entrance": 0,
+  "cloud": false,
+  "pages": 13,
+  "portals": [
+   {
+    "page": 1,
+    "entries": [
+     {
+      "dest": "GroundArea6",
+      "ptr": 37,
+      "world": 1,
+      "page": 11
+     },
+     {
+      "dest": "GroundArea6",
+      "ptr": 37,
+      "world": 2,
+      "page": 11
+     }
+    ],
+    "use": "side_pipe"
+   },
+   {
+    "page": 1,
+    "entries": [
+     {
+      "dest": "GroundArea6",
+      "ptr": 37,
+      "world": 6,
+      "page": 11
+     }
+    ],
+    "use": "side_pipe"
+   }
+  ]
+ },
+ "WaterArea3": {
+  "kind": "Water",
+  "timer": 1,
+  "entrance": 1,
+  "cloud": false,
+  "pages": 5,
+  "portals": [
+   {
+    "page": 4,
+    "entries": [
+     {
+      "dest": "CastleArea6",
+      "ptr": 101,
+      "world": 7,
+      "page": 16
+     }
+    ],
+    "use": "side_pipe"
+   }
+  ]
+ },
+ "GroundArea1": {
+  "kind": "Ground",
+  "timer": 2,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 10,
+  "portals": []
+ },
+ "GroundArea2": {
+  "kind": "Ground",
+  "timer": 2,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 14,
+  "portals": []
+ },
+ "GroundArea3": {
+  "kind": "Ground",
+  "timer": 1,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 15,
+  "portals": [
+   {
+    "page": 1,
+    "entries": [
+     {
+      "dest": "UndergroundArea3",
+      "ptr": 66,
+      "world": 3,
+      "page": 6
+     }
+    ],
+    "use": "down_pipe"
+   }
+  ]
+ },
+ "GroundArea4": {
+  "kind": "Ground",
+  "timer": 1,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 14,
+  "portals": [
+   {
+    "page": 1,
+    "entries": [
+     {
+      "dest": "UndergroundArea3",
+      "ptr": 66,
+      "world": 5,
+      "page": 8
+     }
+    ],
+    "use": "down_pipe"
+   },
+   {
+    "page": 3,
+    "entries": [
+     {
+      "dest": "WaterArea1",
+      "ptr": 0,
+      "world": 5,
+      "page": 0
+     }
+    ],
+    "use": "down_pipe"
+   },
+   {
+    "page": 5,
+    "entries": [
+     {
+      "dest": "GroundArea21",
+      "ptr": 52,
+      "world": 5,
+      "page": 0
+     }
+    ],
+    "use": "vine"
+   },
+   {
+    "page": 7,
+    "entries": [
+     {
+      "dest": "UndergroundArea3",
+      "ptr": 66,
+      "world": 5,
+      "page": 6
+     }
+    ],
+    "use": "down_pipe"
+   }
+  ]
+ },
+ "GroundArea5": {
+  "kind": "Ground",
+  "timer": 1,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 13,
+  "portals": [
+   {
+    "page": 1,
+    "entries": [
+     {
+      "dest": "UndergroundArea3",
+      "ptr": 66,
+      "world": 2,
+      "page": 4
+     }
+    ],
+    "use": "down_pipe"
+   },
+   {
+    "page": 7,
+    "entries": [
+     {
+      "dest": "GroundArea21",
+      "ptr": 52,
+      "world": 2,
+      "page": 0
+     }
+    ],
+    "use": "vine"
+   }
+  ]
+ },
+ "GroundArea6": {
+  "kind": "Ground",
+  "timer": 1,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 13,
+  "portals": [
+   {
+    "page": 1,
+    "entries": [
+     {
+      "dest": "UndergroundArea3",
+      "ptr": 66,
+      "world": 0,
+      "page": 0
+     }
+    ],
+    "use": "down_pipe"
+   }
+  ]
+ },
+ "GroundArea7": {
+  "kind": "Ground",
+  "timer": 2,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 10,
+  "portals": []
+ },
+ "GroundArea8": {
+  "kind": "Ground",
+  "timer": 2,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 15,
+  "portals": []
+ },
+ "GroundArea9": {
+  "kind": "Ground",
+  "timer": 1,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 13,
+  "portals": [
+   {
+    "page": 3,
+    "entries": [
+     {
+      "dest": "GroundArea12",
+      "ptr": 43,
+      "world": 1,
+      "page": 0
+     }
+    ],
+    "use": "vine"
+   },
+   {
+    "page": 6,
+    "entries": [
+     {
+      "dest": "UndergroundArea3",
+      "ptr": 66,
+      "world": 1,
+      "page": 0
+     }
+    ],
+    "use": "down_pipe"
+   }
+  ]
+ },
+ "GroundArea10": {
+  "kind": "Ground",
+  "timer": 0,
+  "entrance": 7,
+  "cloud": false,
+  "pages": 2,
+  "portals": []
+ },
+ "GroundArea11": {
+  "kind": "Ground",
+  "timer": 2,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 13,
+  "portals": [
+   {
+    "page": 9,
+    "entries": [
+     {
+      "dest": "UndergroundArea3",
+      "ptr": 66,
+      "world": 4,
+      "page": 8
+     }
+    ],
+    "use": "down_pipe"
+   }
+  ]
+ },
+ "GroundArea12": {
+  "kind": "Ground",
+  "timer": 0,
+  "entrance": 0,
+  "cloud": true,
+  "pages": 6,
+  "portals": [
+   {
+    "page": 1,
+    "entries": [
+     {
+      "dest": "GroundArea9",
+      "ptr": 40,
+      "world": 1,
+      "page": 10
+     },
+     {
+      "dest": "GroundArea18",
+      "ptr": 49,
+      "world": 4,
+      "page": 8
+     }
+    ],
+    "use": "cloud_exit"
+   }
+  ]
+ },
+ "GroundArea13": {
+  "kind": "Ground",
+  "timer": 2,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 10,
+  "portals": []
+ },
+ "GroundArea14": {
+  "kind": "Ground",
+  "timer": 2,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 11,
+  "portals": []
+ },
+ "GroundArea15": {
+  "kind": "Ground",
+  "timer": 1,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 13,
+  "portals": []
+ },
+ "GroundArea16": {
+  "kind": "Ground",
+  "timer": 0,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 5,
+  "portals": []
+ },
+ "GroundArea17": {
+  "kind": "Ground",
+  "timer": 2,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 24,
+  "portals": [
+   {
+    "page": 1,
+    "entries": [
+     {
+      "dest": "UndergroundArea3",
+      "ptr": 66,
+      "world": 7,
+      "page": 2
+     }
+    ],
+    "use": "down_pipe"
+   }
+  ]
+ },
+ "GroundArea18": {
+  "kind": "Ground",
+  "timer": 1,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 13,
+  "portals": [
+   {
+    "page": 1,
+    "entries": [
+     {
+      "dest": "WaterArea1",
+      "ptr": 0,
+      "world": 4,
+      "page": 0
+     }
+    ],
+    "use": "down_pipe"
+   },
+   {
+    "page": 5,
+    "entries": [
+     {
+      "dest": "GroundArea12",
+      "ptr": 43,
+      "world": 4,
+      "page": 0
+     }
+    ],
+    "use": "vine"
+   }
+  ]
+ },
+ "GroundArea19": {
+  "kind": "Ground",
+  "timer": 1,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 14,
+  "portals": [
+   {
+    "page": 7,
+    "entries": [
+     {
+      "dest": "UndergroundArea3",
+      "ptr": 66,
+      "world": 7,
+      "page": 8
+     }
+    ],
+    "use": "down_pipe"
+   }
+  ]
+ },
+ "GroundArea20": {
+  "kind": "Ground",
+  "timer": 1,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 12,
+  "portals": [
+   {
+    "page": 1,
+    "entries": [
+     {
+      "dest": "UndergroundArea3",
+      "ptr": 66,
+      "world": 6,
+      "page": 0
+     }
+    ],
+    "use": "down_pipe"
+   }
+  ]
+ },
+ "GroundArea21": {
+  "kind": "Ground",
+  "timer": 0,
+  "entrance": 0,
+  "cloud": true,
+  "pages": 7,
+  "portals": [
+   {
+    "page": 1,
+    "entries": [
+     {
+      "dest": "GroundArea5",
+      "ptr": 36,
+      "world": 2,
+      "page": 10
+     }
+    ],
+    "use": "cloud_exit"
+   },
+   {
+    "page": 1,
+    "entries": [
+     {
+      "dest": "GroundArea4",
+      "ptr": 35,
+      "world": 5,
+      "page": 10
+     }
+    ],
+    "use": "cloud_exit"
+   }
+  ]
+ },
+ "GroundArea22": {
+  "kind": "Ground",
+  "timer": 2,
+  "entrance": 2,
+  "cloud": false,
+  "pages": 14,
+  "portals": []
+ },
+ "UndergroundArea1": {
+  "kind": "Underground",
+  "timer": 1,
+  "entrance": 1,
+  "cloud": false,
+  "pages": 13,
+  "portals": [
+   {
+    "page": 2,
+    "entries": [
+     {
+      "dest": "UndergroundArea3",
+      "ptr": 66,
+      "world": 0,
+      "page": 2
+     }
+    ],
+    "use": "down_pipe"
+   },
+   {
+    "page": 10,
+    "entries": [
+     {
+      "dest": "GroundArea6",
+      "ptr": 37,
+      "world": 0,
+      "page": 11
+     }
+    ],
+    "use": "side_pipe"
+   }
+  ]
+ },
+ "UndergroundArea2": {
+  "kind": "Underground",
+  "timer": 1,
+  "entrance": 1,
+  "cloud": false,
+  "pages": 15,
+  "portals": [
+   {
+    "page": 2,
+    "entries": [
+     {
+      "dest": "GroundArea16",
+      "ptr": 47,
+      "world": 3,
+      "page": 0
+     }
+    ],
+    "use": "side_pipe"
+   },
+   {
+    "page": 5,
+    "entries": [
+     {
+      "dest": "UndergroundArea3",
+      "ptr": 66,
+      "world": 3,
+      "page": 8
+     }
+    ],
+    "use": "down_pipe"
+   },
+   {
+    "page": 11,
+    "entries": [
+     {
+      "dest": "GroundArea6",
+      "ptr": 37,
+      "world": 3,
+      "page": 11
+     }
+    ],
+    "use": "side_pipe"
+   }
+  ]
+ },
+ "UndergroundArea3": {
+  "kind": "Underground",
+  "timer": 1,
+  "entrance": 1,
+  "cloud": false,
+  "pages": 10,
+  "portals": [
+   {
+    "page": 1,
+    "entries": [
+     {
+      "dest": "GroundArea6",
+      "ptr": 37,
+      "world": 0,
+      "page": 10
+     }
+    ],
+    "use": "side_pipe"
+   },
+   {
+    "page": 1,
+    "entries": [
+     {
+      "dest": "GroundArea9",
+      "ptr": 40,
+      "world": 1,
+      "page": 7
+     },
+     {
+      "dest": "GroundArea20",
+      "ptr": 51,
+      "world": 6,
+      "page": 7
+     }
+    ],
+    "use": "side_pipe"
+   },
+   {
+    "page": 3,
+    "entries": [
+     {
+      "dest": "UndergroundArea1",
+      "ptr": 64,
+      "world": 0,
+      "page": 7
+     }
+    ],
+    "use": "side_pipe"
+   },
+   {
+    "page": 3,
+    "entries": [
+     {
+      "dest": "GroundArea17",
+      "ptr": 48,
+      "world": 7,
+      "page": 7
+     }
+    ],
+    "use": "side_pipe"
+   },
+   {
+    "page": 5,
+    "entries": [
+     {
+      "dest": "GroundArea5",
+      "ptr": 36,
+      "world": 2,
+      "page": 4
+     }
+    ],
+    "use": "side_pipe"
+   },
+   {
+    "page": 7,
+    "entries": [
+     {
+      "dest": "GroundArea3",
+      "ptr": 34,
+      "world": 3,
+      "page": 10
+     }
+    ],
+    "use": "side_pipe"
+   },
+   {
+    "page": 7,
+    "entries": [
+     {
+      "dest": "GroundArea4",
+      "ptr": 35,
+      "world": 5,
+      "page": 11
+     }
+    ],
+    "use": "side_pipe"
+   },
+   {
+    "page": 9,
+    "entries": [
+     {
+      "dest": "UndergroundArea2",
+      "ptr": 65,
+      "world": 3,
+      "page": 8
+     },
+     {
+      "dest": "GroundArea11",
+      "ptr": 42,
+      "world": 4,
+      "page": 10
+     }
+    ],
+    "use": "side_pipe"
+   },
+   {
+    "page": 9,
+    "entries": [
+     {
+      "dest": "GroundArea4",
+      "ptr": 35,
+      "world": 5,
+      "page": 2
+     },
+     {
+      "dest": "GroundArea19",
+      "ptr": 50,
+      "world": 7,
+      "page": 10
+     }
+    ],
+    "use": "side_pipe"
+   }
+  ]
+ },
+ "CastleArea1": {
+  "kind": "Castle",
+  "timer": 2,
+  "entrance": 3,
+  "cloud": false,
+  "pages": 10,
+  "portals": []
+ },
+ "CastleArea2": {
+  "kind": "Castle",
+  "timer": 1,
+  "entrance": 3,
+  "cloud": false,
+  "pages": 12,
+  "portals": []
+ },
+ "CastleArea3": {
+  "kind": "Castle",
+  "timer": 2,
+  "entrance": 3,
+  "cloud": false,
+  "pages": 10,
+  "portals": []
+ },
+ "CastleArea4": {
+  "kind": "Castle",
+  "timer": 2,
+  "entrance": 3,
+  "cloud": false,
+  "pages": 10,
+  "portals": []
+ },
+ "CastleArea5": {
+  "kind": "Castle",
+  "timer": 1,
+  "entrance": 3,
+  "cloud": false,
+  "pages": 14,
+  "portals": []
+ },
+ "CastleArea6": {
+  "kind": "Castle",
+  "timer": 1,
+  "entrance": 3,
+  "cloud": false,
+  "pages": 20,
+  "portals": [
+   {
+    "page": 3,
+    "entries": [
+     {
+      "dest": "CastleArea6",
+      "ptr": 101,
+      "world": 7,
+      "page": 1
+     }
+    ],
+    "use": "down_pipe"
+   },
+   {
+    "page": 5,
+    "entries": [
+     {
+      "dest": "CastleArea6",
+      "ptr": 101,
+      "world": 7,
+      "page": 7
+     }
+    ],
+    "use": "down_pipe"
+   },
+   {
+    "page": 8,
+    "entries": [
+     {
+      "dest": "CastleArea6",
+      "ptr": 101,
+      "world": 7,
+      "page": 1
+     }
+    ],
+    "use": "down_pipe"
+   },
+   {
+    "page": 9,
+    "entries": [
+     {
+      "dest": "CastleArea6",
+      "ptr": 101,
+      "world": 7,
+      "page": 12
+     }
+    ],
+    "use": "down_pipe"
+   },
+   {
+    "page": 13,
+    "entries": [
+     {
+      "dest": "CastleArea6",
+      "ptr": 101,
+      "world": 7,
+      "page": 1
+     }
+    ],
+    "use": "down_pipe"
+   },
+   {
+    "page": 14,
+    "entries": [
+     {
+      "dest": "WaterArea3",
+      "ptr": 2,
+      "world": 7,
+      "page": 0
+     }
+    ],
+    "use": "down_pipe"
+   },
+   {
+    "page": 17,
+    "entries": [
+     {
+      "dest": "CastleArea6",
+      "ptr": 101,
+      "world": 7,
+      "page": 1
+     }
+    ],
+    "use": "down_pipe"
+   }
+  ]
+ }
+}

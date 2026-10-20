@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.z64
+*.n64
+*.v64
+*.zip
+baserom*
+*.nes
+*.sfc
+*.smc
+*.gb
+*.gbc
+*.gba
+start.cmd

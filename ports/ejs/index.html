@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bramble Run</title>
+<style>
+  :root { --bg:#101218; --fg:#e8e8ee; --dim:#9aa0ad; --accent:#e0522f; }
+  html,body { margin:0; height:100%; background:var(--bg); color:var(--fg); font:14px/1.4 system-ui,sans-serif; overflow:hidden; }
+  #wrap { display:flex; flex-direction:column; height:100%; }
+  #game { flex:1; min-height:0; }
+  #bar { padding:6px 12px; color:var(--dim); font-size:12px; display:flex; gap:6px 16px; flex-wrap:wrap; align-items:center; }
+  #bar b { color:var(--fg); font-weight:600; }
+  #bar a { color:var(--dim); }
+  @media (max-width: 640px) { #keys { display:none; } }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div id="game"></div>
+  <div id="bar">
+    <span><b>Bramble Run</b>: an original platformer built on the smb1 disassembly. Every stage, picture, tune and word is new
+      (<a href="https://github.com/andrewnakas/smb-cleanroom" target="_blank" rel="noopener">source</a> · <a href="THIRD_PARTY.md" target="_blank" rel="noopener">third-party notices</a>)</span>
+    <span id="keys">Keys: <b>Arrows</b> move · <b>X</b> jump (A) · <b>Z</b> run / fire (B) · <b>Enter</b> Start · <b>Shift</b> Select. Gamepads and touch work too.</span>
+  </div>
+</div>
+<script>
+(function () {
+  const q = new URLSearchParams(location.search);
+  // libretro joypad ids: 0 B, 2 Select, 3 Start, 4 Up, 5 Down, 6 Left, 7 Right, 8 A
+  const k = (v, g) => ({ value: v, value2: g || "" });
+  const P1 = {
+    0: k("z", "BUTTON_1"), 8: k("x", "BUTTON_2"), 2: k("shift", "SELECT"), 3: k("enter", "START"),
+    4: k("up arrow", "DPAD_UP"), 5: k("down arrow", "DPAD_DOWN"),
+    6: k("left arrow", "DPAD_LEFT"), 7: k("right arrow", "DPAD_RIGHT"),
+  };
+  window.EJS_player = "#game";
+  window.EJS_core = "nes";
+  window.EJS_gameName = "bramble-run";
+  window.EJS_gameUrl = "bramblerun.nes";
+  window.EJS_pathtodata = "data/";
+  window.EJS_startOnLoaded = !!q.get("autostart");   // otherwise one tap starts game and sound
+  window.EJS_disableDatabases = true;
+  window.EJS_threads = false;
+  window.EJS_color = "#e0522f";
+  window.EJS_backgroundColor = "#101218";
+  window.EJS_defaultControls = { 0: P1, 1: {}, 2: {}, 3: {} };
+  window.EJS_defaultOptions = { "save-state-location": "browser" };
+  window.EJS_onGameStart = function () { console.log("NES: game started"); };
+})();
+</script>
+<script src="data/loader.js"></script>
+</body>
+</html>

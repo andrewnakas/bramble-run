@@ -1,0 +1,11 @@
+{
+ "game": "smb (Bramble Run)",
+ "thresholds": {"tilemap": {"structure_classes": [11]}},
+ "music": [{"retail": "music/*.mid", "clean": "music/*.mid"}],
+ "text": [{"retail": "text/*.json", "clean": "text/*.json"}],
+ "names": "names.json",
+ "tilemap": [{"retail": "levels/*.json", "clean": "levels/*.json"}],
+ "images": [{"retail": "pictures/*.png", "clean": "pictures/*.png"}],
+ "code": [{"retail": "../baserom.nes", "clean": "../smb.nes", "start": "0x10", "end": "0x8010",
+           "compiled": ["../code_only.prg"]}]
+}
